@@ -1,0 +1,14 @@
+<?xml version='1.0'?>
+<configurations>
+	<timer>-1</timer>
+        <mailerHostName>smtp.gmail.com</mailerHostName>
+        <mailerUserName>pavel02rafeev@gmail.com</mailerUserName>
+	<mailerUserPassword>8334191gmail</mailerUserPassword>
+	<mailerPort>587</mailerPort>
+	<configuration>
+        	<reciever>pavel02rafeev@gmail.com</reciever>
+                <channel>liftoff.msfc.nasa.gov</channel>
+		<author>pavel</author>
+		<category>world</category>
+        </configuration>
+</configurations>

@@ -1,0 +1,51 @@
+﻿<Window x:Class="SPP_5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SPP_5"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="400">
+    <TabControl x:Name="info">
+        <!--TabItem x:Name="statsTab">
+            <TabItem.Header>
+                <StackPanel Orientation="Horizontal">
+                    <Ellipse Height="10" Width="10" Fill="Black" />
+                    <TextBlock Margin="3">Sent statistics</TextBlock>
+                </StackPanel>
+            </TabItem.Header>
+            <TabItem.Content>
+                <ListView x:Name="sentList" ItemsSource="{Binding SentInfo}" >
+                    <ListView.View>
+                        <GridView AllowsColumnReorder="true">
+                            <GridViewColumn DisplayMemberBinding="{Binding Path=Id}" Header="Id" Width="30"/>
+                            <GridViewColumn DisplayMemberBinding="{Binding Path=Email}" Header="Reciever email" Width="100"/>
+                            <GridViewColumn DisplayMemberBinding="{Binding Path=Title}" Header="Title" Width="100"/>
+                            <GridViewColumn DisplayMemberBinding="{Binding Path=Time}" Header="Time" Width="100"/>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+            </TabItem.Content>
+        </TabItem-->
+        <TabItem x:Name="configsTab">
+            <TabItem.Header>
+                <StackPanel Orientation="Horizontal">
+                    <Rectangle Height="10" Width="10" Fill="Black" />
+                    <TextBlock Margin="3">Configurations</TextBlock>
+                </StackPanel>
+            </TabItem.Header>
+            <TabItem.Content>
+                <ListView x:Name="configsList" ItemsSource="{Binding Configurations}" >
+                    <ListView.View>
+                        <GridView AllowsColumnReorder="true">
+                            <GridViewColumn DisplayMemberBinding="{Binding Path=RecieverEmail}" Header="Reciever email" Width="100"/>
+                            <GridViewColumn DisplayMemberBinding="{Binding Path=RssChannelLink}" Header="RSS channel" Width="100"/>
+                            <GridViewColumn DisplayMemberBinding="{Binding Path=AuthorFilter}" Header="Author" Width="100"/>
+                            <GridViewColumn DisplayMemberBinding="{Binding Path=CategoryFilter}" Header="Category" Width="80"/>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+            </TabItem.Content>
+        </TabItem>
+    </TabControl>
+</Window>

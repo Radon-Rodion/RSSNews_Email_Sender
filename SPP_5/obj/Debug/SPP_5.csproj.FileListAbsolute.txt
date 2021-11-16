@@ -1,0 +1,15 @@
+F:\Coding\C#\SPP_5\SPP_5\bin\Debug\SPP_5.exe.config
+F:\Coding\C#\SPP_5\SPP_5\bin\Debug\SPP_5.exe
+F:\Coding\C#\SPP_5\SPP_5\bin\Debug\SPP_5.pdb
+F:\Coding\C#\SPP_5\SPP_5\obj\Debug\SPP_5.csproj.AssemblyReference.cache
+F:\Coding\C#\SPP_5\SPP_5\obj\Debug\MainWindow.g.cs
+F:\Coding\C#\SPP_5\SPP_5\obj\Debug\App.g.cs
+F:\Coding\C#\SPP_5\SPP_5\obj\Debug\SPP_5_MarkupCompile.cache
+F:\Coding\C#\SPP_5\SPP_5\obj\Debug\SPP_5_MarkupCompile.lref
+F:\Coding\C#\SPP_5\SPP_5\obj\Debug\MainWindow.baml
+F:\Coding\C#\SPP_5\SPP_5\obj\Debug\SPP_5.g.resources
+F:\Coding\C#\SPP_5\SPP_5\obj\Debug\SPP_5.Properties.Resources.resources
+F:\Coding\C#\SPP_5\SPP_5\obj\Debug\SPP_5.csproj.GenerateResource.cache
+F:\Coding\C#\SPP_5\SPP_5\obj\Debug\SPP_5.csproj.CoreCompileInputs.cache
+F:\Coding\C#\SPP_5\SPP_5\obj\Debug\SPP_5.exe
+F:\Coding\C#\SPP_5\SPP_5\obj\Debug\SPP_5.pdb

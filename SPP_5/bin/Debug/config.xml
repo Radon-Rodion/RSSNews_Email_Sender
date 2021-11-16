@@ -1,0 +1,18 @@
+<?xml version='1.0'?>
+<configurations>
+	<timer>360000</timer>
+        <mailerHostName>smtp.gmail.com</mailerHostName>
+        <mailerUserName>pavel02rafeev@gmail.com</mailerUserName>
+	<mailerUserPassword>********</mailerUserPassword>
+	<mailerPort>587</mailerPort>
+	<configuration>
+        	<reciever>pavel02rafeev@gmail.com</reciever>
+                <channel>http://www.kommersant.ru/RSS/corp.xml</channel>
+		<category>Происшествия</category>
+        </configuration>
+	<configuration>
+        	<reciever>radius.zemly@gmail.com</reciever>
+                <channel>http://www.kommersant.ru/RSS/corp.xml</channel>
+		<category>Экономика</category>
+        </configuration>
+</configurations>
